@@ -20,7 +20,7 @@ export class Picker {
             area.appendChild(this.el);
             this.renderConnection();
         } else if (this.el.parentElement) {
-            area.removeChild(this.el)
+            area.removeChild(this.el);
             this.el.innerHTML = '';
         }
     }
@@ -34,7 +34,7 @@ export class Picker {
     }
 
     updateConnection() {
-        if (!this.output) return;
+        if (!this.output) { return; }
 
         const d = renderPathData(this.editor, this.getPoints());
 
@@ -42,11 +42,10 @@ export class Picker {
     }
 
     renderConnection() {
-        if (!this.output) return;
+        if (!this.output) { return; }
 
         const d = renderPathData(this.editor, this.getPoints());
 
         renderConnection({ el: this.el, d, connection: null });
     }
-
 }

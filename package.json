@@ -1,5 +1,5 @@
 {
-  "name": "rete-connection-plugin",
+  "name": "rete-connection-plugin-polyline",
   "version": "0.3.1",
   "description": "",
   "main": "build/connection-plugin.min.js",
@@ -8,11 +8,15 @@
     "build:dev": "rete --build rete.config.js --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "",
+  "author": {
+    "email": "anlijudavid@hotmail.com",
+    "name": "Julian David",
+    "url": "https://github.com/juliandavidmr"
+  },
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "rete-cli": "^0.2.0",
-    "rollup-plugin-sass": "^0.6.1"
+    "rollup-plugin-sass": "^0.9.2"
   }
 }
