@@ -1,8 +1,8 @@
 {
   "name": "rete-connection-plugin-polyline",
-  "version": "0.3.1",
-  "description": "",
-  "main": "build/connection-plugin.min.js",
+  "version": "1.0.0-1",
+  "description": "Plugin to create connections with polylines in Rete",
+  "main": "build/connection-plugin-polyline.min.js",
   "scripts": {
     "build": "rete --build rete.config.js",
     "build:dev": "rete --build rete.config.js --watch",
@@ -13,6 +13,17 @@
     "name": "Julian David",
     "url": "https://github.com/juliandavidmr"
   },
+  "categories": [
+    "Themes",
+    "Extension Packs"
+  ],
+  "homepage": "https://github.com/juliandavidmr/connection-plugin-polyline",
+  "markdown": "github",
+  "repository": {
+    "type": "connection-plugin-polyline",
+    "url": "https://github.com/juliandavidmr/connection-plugin-polyline"
+  },
+  "preferGlobal": false,
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
